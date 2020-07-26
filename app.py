@@ -8,7 +8,7 @@ app = Flask(__name__)
 def redirect_to_menu():
     # This function should find the latest menu available
 
-    return redirect("https://all-my-menus.s3.eu-west-2.amazonaws.com/yanncouvreur/Menu+YCH+July.pdf")
+    return redirect("https://all-my-menus.s3.eu-west-2.amazonaws.com/yanncouvreur/Menu+YCH+July+V.3.pdf")
 
 
 if __name__ == '__main__':
